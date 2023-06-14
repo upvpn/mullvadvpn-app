@@ -84,7 +84,7 @@ pub enum Error {
     NetworkManager(#[error(source)] nm_tunnel::Error),
 }
 
-pub(crate) const MULLVAD_INTERFACE_NAME: &str = "wg-mullvad";
+pub(crate) const MULLVAD_INTERFACE_NAME: &str = "upvpn";
 
 #[derive(Debug)]
 pub struct Handle {
